@@ -1,0 +1,51 @@
+{
+  "state": "finished",
+  "organ": "liver",
+  "arch": "resunet",
+  "epoch": 30,
+  "started": 1794555473.4108248,
+  "n_params": 4151713,
+  "hyperparameters": {
+    "epochs": 30,
+    "batch_size": 32,
+    "patch_size": 128,
+    "lr": 0.0002,
+    "width": 32,
+    "patches_per_epoch": 3578
+  },
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "amp": "torch.bfloat16",
+  "data_source": "tcia",
+  "baseline": {
+    "psnr": 29.219083786010742,
+    "ssim": 0.7958377599716187,
+    "rmse_hu": 14.411905288696289
+  },
+  "total_epochs": 30,
+  "best_psnr": 32.84371566772461,
+  "label": "Residual U-Net (ours)",
+  "last": {
+    "epoch": 30,
+    "loss": 0.053907672027209856,
+    "l1": 0.019725424547990162,
+    "ssim_loss": 0.15313404368924666,
+    "edge": 0.03555438326889867,
+    "val_psnr": 32.818939208984375,
+    "val_ssim": 0.8865699768066406,
+    "val_rmse_hu": 9.47642707824707,
+    "lr": 2.0000000000000003e-06,
+    "epoch_s": 15.380000114440918,
+    "elapsed_s": 475.0283303260803
+  },
+  "finished": 1794555950.2635105,
+  "train_minutes": 7.918472170829773,
+  "test": {
+    "n_slices": 80,
+    "psnr_in": 29.348189783096313,
+    "psnr_out": 33.56341950893402,
+    "ssim_in": 0.8738850705325604,
+    "ssim_out": 0.9212005779147148,
+    "rmse_in": 14.531763714551925,
+    "rmse_out": 8.779362738132477
+  }
+}

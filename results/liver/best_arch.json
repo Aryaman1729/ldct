@@ -1,0 +1,7 @@
+{
+  "arch": "resunet",
+  "label": "Residual U-Net (ours)",
+  "selected_by": "validation PSNR",
+  "val_psnr": 32.84371566772461,
+  "epochs": 30
+}

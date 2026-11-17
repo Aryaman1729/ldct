@@ -1,0 +1,52 @@
+{
+  "Low-dose input": {
+    "psnr": 29.101438903808592,
+    "psnr_std": 3.0773531990520495,
+    "ssim": 0.8724060863256454,
+    "rmse_hu": 14.920844841003419,
+    "psnr_per_patient_mean": 29.101438903808592,
+    "psnr_per_patient_std": 2.1634155273437496,
+    "n_slices": 20,
+    "n_patients": 2
+  },
+  "Gaussian (sigma=0.5)": {
+    "psnr": 29.936230850219726,
+    "psnr_std": 2.5000411585751783,
+    "ssim": 0.8898979425430298,
+    "rmse_hu": 13.281555938720704,
+    "psnr_per_patient_mean": 29.93623085021973,
+    "psnr_per_patient_std": 1.6637693405151364,
+    "n_slices": 20,
+    "n_patients": 2
+  },
+  "Median (3x3)": {
+    "psnr": 29.731550407409667,
+    "psnr_std": 1.8143515238115127,
+    "ssim": 0.8950291782617569,
+    "rmse_hu": 13.3389253616333,
+    "psnr_per_patient_mean": 29.731550407409667,
+    "psnr_per_patient_std": 1.1226472854614258,
+    "n_slices": 20,
+    "n_patients": 2
+  },
+  "Non-local means (h=0.04)": {
+    "psnr": 31.160852241516114,
+    "psnr_std": 3.589688514425045,
+    "ssim": 0.9001401454210282,
+    "rmse_hu": 12.050143003463745,
+    "psnr_per_patient_mean": 31.160852241516114,
+    "psnr_per_patient_std": 2.4435323715209982,
+    "n_slices": 20,
+    "n_patients": 2
+  },
+  "resunet (deep model)": {
+    "psnr": 33.363499546051024,
+    "psnr_std": 2.5443250996804117,
+    "ssim": 0.9202370494604111,
+    "rmse_hu": 8.963436889648438,
+    "psnr_per_patient_mean": 33.36349954605103,
+    "psnr_per_patient_std": 1.817043590545655,
+    "n_slices": 20,
+    "n_patients": 2
+  }
+}

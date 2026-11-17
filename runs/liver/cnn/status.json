@@ -1,0 +1,51 @@
+{
+  "state": "finished",
+  "organ": "liver",
+  "arch": "cnn",
+  "epoch": 30,
+  "started": 1794558042.070286,
+  "n_params": 67649,
+  "hyperparameters": {
+    "epochs": 30,
+    "batch_size": 32,
+    "patch_size": 128,
+    "lr": 0.0002,
+    "width": 64,
+    "patches_per_epoch": 3578
+  },
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "amp": "torch.bfloat16",
+  "data_source": "tcia",
+  "baseline": {
+    "psnr": 29.219083786010742,
+    "ssim": 0.7958377599716187,
+    "rmse_hu": 14.411905288696289
+  },
+  "total_epochs": 30,
+  "best_psnr": 31.58258819580078,
+  "label": "CNN (3-layer)",
+  "last": {
+    "epoch": 30,
+    "loss": 0.06152304191444371,
+    "l1": 0.023543050277743255,
+    "ssim_loss": 0.16974622816652865,
+    "edge": 0.04030745325459016,
+    "val_psnr": 31.58258819580078,
+    "val_ssim": 0.8754278421401978,
+    "val_rmse_hu": 10.78187370300293,
+    "lr": 2.0000000000000003e-06,
+    "epoch_s": 4.299000024795532,
+    "elapsed_s": 132.43309545516968
+  },
+  "finished": 1794558174.7891684,
+  "train_minutes": 2.2073349316914874,
+  "test": {
+    "n_slices": 80,
+    "psnr_in": 29.348189783096313,
+    "psnr_out": 32.413396286964414,
+    "ssim_in": 0.8738850705325604,
+    "ssim_out": 0.9144345313310623,
+    "rmse_in": 14.531763714551925,
+    "rmse_out": 9.9402567923069
+  }
+}

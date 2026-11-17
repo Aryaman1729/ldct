@@ -1,0 +1,7 @@
+# Extra packages for the client-server setup (your venv already has torch, numpy, streamlit, pandas, matplotlib)
+fastapi
+uvicorn[standard]
+python-multipart
+requests
+pillow
+pydicom

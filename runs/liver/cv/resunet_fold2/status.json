@@ -1,0 +1,42 @@
+{
+  "state": "finished",
+  "organ": "liver",
+  "arch": "resunet",
+  "epoch": 30,
+  "started": 1794813710.2302213,
+  "n_params": 4151713,
+  "hyperparameters": {
+    "epochs": 30,
+    "batch_size": 32,
+    "patch_size": 128,
+    "lr": 0.0002,
+    "width": 32,
+    "patches_per_epoch": 2972
+  },
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "amp": "torch.bfloat16",
+  "data_source": "tcia",
+  "baseline": {
+    "psnr": 27.395586013793945,
+    "ssim": 0.7426131963729858,
+    "rmse_hu": 17.804914474487305
+  },
+  "total_epochs": 30,
+  "best_psnr": 31.656597137451172,
+  "label": "Residual U-Net (ours)",
+  "last": {
+    "epoch": 30,
+    "loss": 0.05658723365353501,
+    "l1": 0.020832365297752876,
+    "ssim_loss": 0.16039529831513114,
+    "edge": 0.03675808014510119,
+    "val_psnr": 31.656597137451172,
+    "val_ssim": 0.851199746131897,
+    "val_rmse_hu": 10.793792724609375,
+    "lr": 2.0000000000000003e-06,
+    "epoch_s": 11.539549350738525,
+    "elapsed_s": 348.60108184814453
+  },
+  "finished": 1794814062.5426238,
+  "train_minutes": 5.811368083953857
+}
